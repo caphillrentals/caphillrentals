@@ -1,6 +1,6 @@
 // ── Nav: toggle light mode when over white sections ────────────
 const nav = document.getElementById('nav');
-const lightSections = ['#essentials','#rooms','#rules','#support'];
+const lightSections = ['#essentials','#rooms','#rules','#privacy','#support'];
 
 const navObserver = new IntersectionObserver(entries => {
   entries.forEach(entry => {
